@@ -1,0 +1,399 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+    
+        {"tag": "introduction",
+         "patterns": ["who are you?", "what is your name?", "what is you?"],
+         "responses": ["My name is Invocom", "I am invocome"],
+         "context": [""]
+        },
+
+        {"tag": "InvoZone",
+         "patterns": ["What is InvoZone?","tell me something about invozone","can you introduce invozone?"],
+         "responses": ["InvoZone offers software development consulting services for businesses, startups, and enterprises. Partner with a reliable software development company to scale up your engineering capacity."],
+         "context": [""]
+        },
+    
+        {"tag": "InvoZone Services",
+         "patterns": ["What services does your company provide?","tell me about your services","what type of services does you company provide?", "what kind of services does you company provide?"],
+         "responses": ["Our company provides Web design and development, Software Project Management, Mobile App development service, Enterprise App development, Data Scraping, UI/UX Design, IoT Development, DevOps, Big Data and Technical support Services."],
+         "context": [""]
+        },
+    
+        {"tag": "e-commerce services",
+         "patterns": ["What kind of e-commerce services Invozone Offers?", "What type of e-commerce services Invozone Offers?", "Do you provide e-commerce services?", "tell me about your services of e-commerce."],
+         "responses": ["With experience in custom eCommerce website development, our web developers build engaging eCommerce platforms that drive online sales."],
+         "context": [""]
+        },
+    
+        {"tag": "Ecommerce website solutions",
+         "patterns": ["What kind of Ecommerce website solutions do you offer?", "What type of Ecommerce website solutions do you offer?", "Do you develop ecommerce websites?", "What solutions do you provide for ecommerce websites?"],
+         "responses": ["If you need a custom eCommerce website and are worried about steep ecommerce website development prices, hiring InvoZone eCommerce developers is your best bet."],
+         "context": [""]
+        },
+    
+        {"tag": "Ecommerce custome design",
+         "patterns": ["What kind of Custom designs do you offer for ecommerce solutions?", "What type of Custom designs do you offer for ecommerce solutions?", "How do you design the ecommerce websites?", "What is you strategy to design ecommerce websites?"],
+         "responses": ["Custom designs are a great way of reflecting your business values and brand. We create irresistible custom eCommerce web designs to level up your branding."],
+         "context": [""]
+        },
+    
+        {"tag": "Woo commerce",
+         "patterns": ["Do you offer Woo commerce?", "Do you offer Woocommerce?", "Do you develop woocommerce?", "Do you develop woo commerce?", "Do you provide woocommerce solutions?", "Do you provide woo commerce solutions?", "Can you offer Woo commerce?", "Can you offer Woocommerce?", "Can you develop woocommerce?", "Can you develop woo commerce?", "Can you provide woocommerce solutions?", "Can you provide woo commerce solutions?"],
+         "responses": ["We are well aware of the power of WooCommerce development platforms and provide dedicated teams. So you can hire Woocommerce developers to boost online sales."],
+         "context": [""]
+        },
+    
+        {"tag": "Shopify",
+         "patterns": ["Do you offer Shopify Solutions?", "Do you develop Shopify Solutions?", "Do you provide Shopify Solutions?", "Do you use Shopify in you solutions?", "Can you offer Shopify Solutions?", "Can you develop Shopify Solutions?", "Can you provide Shopify Solutions?", "Can you use Shopify in you solutions?"],
+         "responses": ["InvoZone offers Shopify development solutions focusing on ease of use to minimize development time and cost which is suitable for entry-level B2C (Business to Customers) Ecommerce web development."],
+         "context": [""]
+        },
+
+        {"tag": "Magento Development",
+         "patterns": ["Do you offer Magento Development in e-commerce?", "Do you do magento development?", "How do you apply magento development for ecommerce", "Do you build e-commerce websites using magento development?", "Can you offer Magento Development in e-commerce?", "Can you do magento development?", "Can you build e-commerce websites using magento development?"],
+         "responses": ["We combine technology and creativity to build b2b and b2c Magento eCommerce solutions that grow your business and reduce costs."],
+         "context": [""]
+        },
+    
+        {"tag": "custom on demand development",
+         "patterns": ["Do you offer custom on demand development solutions?", "Do you provide custom on demand development solutions?", "Do you customize development solutions?", "Do you customize development solutions on client's demand?", "Do you offer custom development solutions?", "Do you provide custom development solutions?", "Do you customize development solutions?", "Do you customize development solutions on client's demand?", "Can you offer custom on demand development solutions?", "Can you provide custom on demand development solutions?", "Can you customize development solutions?", "Can you customize development solutions on client's demand?", "Can you offer custom development solutions?", "Can you provide custom development solutions?", "Can you customize development solutions?", "Can you customize development solutions on client's demand?"],
+         "responses": ["Yes we help you launch your fully customized on demand app and boost your business by outsourcing on demand services application development to InvoZone."],
+         "context": [""]
+        },
+    
+        {"tag": "on Demand Payment solutions",
+         "patterns": ["Do you offer on Demand Payment solutions?", "Do you provide on Demand Payment solutions?", "Do you develop payment solutions?", "Do you develop payment solutions on demand?", "Do you offer Payment solutions?", "Do you provide Payment solutions?", "Do you develop payment solutions?", "Do you develop payment solutions?", "Can you offer on Demand Payment solutions?", "Can you provide on Demand Payment solutions?", "Can you develop payment solutions?", "Can you develop payment solutions on demand?", "Can you offer Payment solutions?", "Can you provide Payment solutions?", "Can you develop payment solutions?", "Can you develop payment solutions?"],
+         "responses": ["You can hire our experienced on demand app developers to create UI/UX optimized on demand apps and captivate a large customer base."],
+         "context": [""]
+        },
+    
+        {"tag": "delivery apps on demand",
+         "patterns": ["Do you develop on Demand delivery apps?", "Do you provide on Demand delivery apps solutions?", "Do you develop delivery apps?", "Do you develop delivery apps on demand?", "Do you develop delivery apps?", "Do you provide delivery apps solutions?", "Do you develop delivery apps?", "Do you develop delivery apps?", "Can you develop on Demand delivery apps?", "Can you provide on Demand delivery apps solutions?", "Can you develop delivery apps?", "Can you develop delivery apps on demand?", "Can you develop delivery apps?", "Can you provide delivery apps solutions?", "Can you develop delivery apps?", "Can you develop delivery apps?"],
+         "responses": ["Yes you can get your own Uber Eats like delivery app packed with all on demand services features."],
+         "context": [""]
+        },
+    
+        {"tag": "on demand appointment service",
+         "patterns": ["Do you offer an on demand appointment service?", "Do you provide appointment softwares on demand?", "Do you develop appointment service solutions on demand?", "Do you offer an appointment service?", "Do you provide appointment softwares", "Do you develop appointment service solutions", "Can you offer an on demand appointment service?", "Can you provide appointment softwares on demand?", "Can you develop appointment service solutions on demand?", "Can you offer an appointment service?", "Can you provide appointment softwares", "Can you develop appointment service solutions"],
+         "responses": ["Yes we help you provide frictionless services to your patients by allowing appointment scheduling through on demand appointment apps. Hire remote developers to build on demand services app for your clinics and hospitals in reasonable time and price."],
+         "context": [""]
+        },
+    
+        {"tag": "on demand service apps",
+         "patterns": ["Do you offer on demand service apps?", "Do you provide on demand service apps?", "Do you develop on demand service apps?", "Do you give solutions for service apps on demand?", "Do you offer service apps solutions?", "Do you provide service apps solutions?", "Do you develop service apps?", "Do you give solutions for service apps?", "Can you offer on demand service apps?", "Can you provide on demand service apps?", "Can you develop on demand service apps?", "Can you give solutions for service apps on demand?", "Can you offer service apps solutions?", "Can you provide service apps solutions?", "Can you develop service apps?", "Can you give solutions for service apps?"],
+         "responses": ["InvoZone offers experienced on demand web and mobile version application development services to innovative businesses.", "We offer all types of custom on demand app development services including B2C, B2B, and C2C. Get your on demand services app idea into reality today."],
+         "context": [""]
+        },
+    
+        {"tag": "Fintech Software",
+         "patterns": ["Do you offer Fintech Software?", "Do you offer Fintech Software solutions?", "Do you provide Fintech Software?", "Do you provide Fintech Software solutions?", "Do you develop fintech software?", "Do you work on fintech software development?", "Are there any fintech software develpers available?", "Can you offer Fintech Software?", "Can you offer Fintech Software solutions?", "Can you provide Fintech Software?", "Can you provide Fintech Software solutions?", "Can you develop fintech software?", "Can you work on fintech software development?"],
+         "responses": ["Yes you can hire fintech software developers with expertise in developing custom fintech software solutions for both web and mobile platforms to enhance user experience and stay ahead of the curve."],
+         "context": [""]
+        },
+    
+        {"tag": "digital payment solutions",
+         "patterns": ["Are there any digital payment solutions available?", "Do you offer digital payment solutions?", "Do you develop softwares for digital payment?", "Can you offer digital payment solutions?", "Can you develop softwares for digital payment?"],
+         "responses": ["Yes, from payment gateway development to digital mobile wallet apps and online banking applications, we provide expert software developers with expertise in multiple technologies."],
+         "context": [""]
+        },
+    
+        {"tag": "AI-Enabled Fintech Apps",
+         "patterns": ["Do you offer Ai-Enabled Fintech Apps?", "Do you apply AI in fintech apps?", "Do you offer artificial intelligence Enabled Fintech Apps?", "Do you apply artificial intelligence in fintech apps?", "Do you develop AI based fintech apps?", "Do you develop artificial intelligence based fintech apps?", "Do you provide Ai-Enabled Fintech Apps?", "Do you provide artificial intelligence Enabled Fintech Apps?", "Can you offer Ai-Enabled Fintech Apps?", "Can you apply AI in fintech apps?", "Can you offer artificial intelligence Enabled Fintech Apps?", "Can you apply artificial intelligence in fintech apps?", "Can you develop AI based fintech apps?", "Can you develop artificial intelligence based fintech apps?", "Can you provide Ai-Enabled Fintech Apps?", "Can you provide artificial intelligence Enabled Fintech Apps?"],
+         "responses": ["Positive! Our AI and Big Data engineers can help you in smart decision making to improve customer engagement. Hire fintech software development experts."],
+         "context": [""]
+        },
+    
+        {"tag": "RegTech solutions",
+         "patterns": ["Are your solutions RegTech?", "Do you provide regtech solutions?", "Do you develop regtech solutions?", "What about your solutions, are those regtech or not?", "Can you provide regtech solutions?", "Can you develop regtech solutions?"],
+         "responses": ["InvoZone helps you build automated Regtech solutions, ranging from fraud detection and prevention to online identity management, regulatory reporting, and risk management."],
+         "context": [""]
+        },
+    
+        {"tag": "CRM Solutions",
+         "patterns": ["Do you provide CRM Solutions?", "Do you offer CRM solutions?", "Do you develop CRM softwares?", "Do you do development in CRM?", "Can you provide CRM Solutions?", "Can you offer CRM solutions?", "Can you develop CRM softwares?", "Can you do development in CRM?"],
+         "responses": ["Hire fintech software developers with expertise in developing cloud-based CRM solutions integrated with the latest technologies, including microservices and artificial intelligence for better financial management."],
+         "context": [""]
+        },
+    
+        {"tag": "Accounting Information Systems",
+         "patterns": ["Can you build Accounting Information Systems?", "Can you develop Accounting Information Systems?", "Can you build softwares for Accounting?", "Can you build systems for Accounting?", "Do you build Accounting Information Systems?", "Do you develop Accounting Information Systems?", "Do you build softwares for Accounting?", "Do you build systems for Accounting?", "Do you provide Accounting Information Systems?", "Can you provide Accounting Information Systems?", "Do you offer Accounting Information Systems?", "Can you offer Accounting Information Systems?"],
+         "responses": ["Yes. Integrate AIS software with ERP and smart business intelligence applications. Our team has in-depth knowledge of Accounting software including, Quick books, SAGE, and SAP."],
+         "context": [""]
+        },
+    
+        {"tag": "grocery app",
+         "patterns": ["Can you build a grocery app?", "Can you develop grocery apps?", "Can you build softwares for Grocery?", "Can you build systems for Grocery?", "Do you build grocery apps?", "Do you develop grocery apps?", "Do you build softwares for Grocery?", "Do you build systems for Grocery?", "Do you provide grocery apps?", "Can you provide grocery apps?", "Do you offer grocery apps?", "Can you offer grocery apps?"],
+         "responses": ["Grocery app development solutions automate order management, delivery dispatch, real-time delivery tracking, and many such features. Scale your grocery business online today."],
+         "context": [""]
+        },
+    
+        {"tag": "food delivery apps",
+         "patterns": ["Can you build a food delivery app?", "Can you develop food delivery apps?", "Can you build softwares for food delivery?", "Can you build systems for food delivery?", "Do you build food delivery apps?", "Do you develop food delivery apps?", "Do you build softwares for food delivery?", "Do you build systems for food delivery?", "Do you provide food delivery apps?", "Can you provide food delivery apps?", "Do you offer development of food delivery apps?", "Can you offer development of food delivery apps?"],
+         "responses": ["InvoZone provides user-friendly food delivery app development solutions having advanced features for startups and businesses alike.", "With InvoZone’s food ordering app development services, get restaurant-consumer delivery, platform-consumer delivery, and many more apps and grow your business."],
+         "context": [""]
+        },
+    
+        {"tag": "restaurant delivery app",
+         "patterns": ["Can you build a restaurant delivery app?", "Can you develop restaurant delivery apps?", "Can you build softwares for restaurant delivery?", "Can you build systems for restaurant delivery?", "Do you build restaurant delivery apps?", "Do you develop restaurant delivery apps?", "Do you build softwares for restaurant delivery?", "Do you build systems for restaurant delivery?", "Do you provide restaurant delivery apps?", "Can you provide restaurant delivery apps?", "Do you offer development of restaurant delivery apps?", "Can you offer development of restaurant delivery apps?"],
+         "responses": ["Yes you can sell more products and easily scale your business with an online restaurant delivery app solution provided by InvoZone."],
+         "context": [""]
+        },
+    
+        {"tag": "grocery store software",
+         "patterns": ["Can you build a grocery store software?", "Can you develop grocery store software?", "Can you build softwares for grocery stores?", "Can you build systems for grocery store?", "Do you build grocery store software?", "Do you develop grocery store software?", "Do you build softwares for grocery store?", "Do you build systems for grocery store?", "Do you provide grocery store software?", "Can you provide grocery store software?", "Do you offer development of grocery store software?", "Can you offer development of grocery store software?"],
+         "responses": ["Manage your sales and invoice your inventory with highly customize grocery store management and sales solutions. InvoZone offers grocery store software and app development services for automating your daily operations."],
+         "context": [""]
+        },
+
+        {"tag": "restaurant management software",
+         "patterns": ["Can you build a restaurant management software?", "Can you develop restaurant management software?", "Can you build softwares for restaurant management?", "Can you build systems for restaurant management?", "Do you build restaurant management software?", "Do you develop restaurant management software?", "Do you build softwares for restaurant management?", "Do you build systems for restaurant management?", "Do you provide restaurant management software?", "Can you provide restaurant management software?", "Do you offer development of restaurant management software?", "Can you offer development of restaurant management software?"],
+         "responses": ["We help you enhance ROI with restaurant management software development services. Automate the workflow and get important reports & invoices in just a few clicks."],
+         "context": [""]
+        },
+    
+        {"tag": "Healthcare software",
+         "patterns": ["Can you build Healthcare softwares?", "Can you develop Healthcare software?", "Can you build softwares for Healthcare?", "Can you build systems for Healthcare?", "Do you build Healthcare software?", "Do you develop Healthcare software?", "Do you build softwares for Healthcare?", "Do you build systems for Healthcare?", "Do you provide Healthcare software?", "Can you provide Healthcare software?", "Do you offer development of Healthcare software?", "Can you offer development of Healthcare software?"],
+         "responses": ["Telehealthcare software development covers a broad range of healthcare software services including, remote patient monitoring, mobile health solutions, real-time healthcare, mHealth apps, and telemedicine software."],
+         "context": [""]
+        },
+    
+        {"tag": "patient engagement management",
+         "patterns": ["How can we manage patient engagement?", "Can you develop a software to manage patient engagement?", "Do you develop a software to manage patient engagement?", "Do you develop patient management apps?", "Can you develop patient management apps?", "Can you make a software which will help us to manage patient engagement?"],
+         "responses": ["Our complete patient engagement software allows patients to book appointments, pay bills online, and access medical records."],
+         "context": [""]
+        },
+    
+        {"tag": "EHR Software",
+         "patterns": ["Can you build Electronic Health Record softwares?", "Can you develop Electronic Health Record software?", "Can you build softwares to manage Electronic Health Record?", "Can you build systems for Electronic Health Record?", "Do you build Electronic Health Record software?", "Do you develop Electronic Health Record software?", "Do you build softwares for Electronic Health Record?", "Do you build systems for Electronic Health Record?", "Do you provide Electronic Health Record software?", "Can you provide Electronic Health Record software?", "Do you offer development of Electronic Health Record software?", "Can you offer development of Electronic Health Record software?", "Can you build EHR softwares?", "Can you develop EHR software?", "Can you build softwares to manage EHR?", "Can you build systems for EHR?", "Do you build EHR software?", "Do you develop EHR software?", "Do you build softwares for EHR?", "Do you build systems for EHR?", "Do you provide EHR software?", "Can you provide EHR software?", "Do you offer development of EHR software?", "Can you offer development of EHR software?"],
+         "responses": ["Yes we provide EMR/EHR software development to help hospitals and individual healthcare service providers in maximizing clinical productivity by interacting with patients via patient portals and facilitating patients to access electronic medical records."],
+         "context": [""]
+        },
+    
+        {"tag": "Health Insurance software",
+         "patterns": ["Can you build Health Insurance softwares?", "Can you develop Health Insurance software?", "Can you build softwares for Health Insurance?", "Can you build systems for Health Insurance?", "Do you build Health Insurance software?", "Do you develop Health Insurance software?", "Do you build softwares for Health Insurance?", "Do you build systems for Health Insurance?", "Do you provide Health Insurance software?", "Can you provide Health Insurance software?", "Do you offer development of Health Insurance software?", "Can you offer development of Health Insurance software?"],
+         "responses": ["We provide health insurance companies the flexibility to cover claims processing, benefits administration, and other mission-critical insurance processes."],
+         "context": [""]
+        },
+    
+        {"tag": "Medical software solutions",
+         "patterns": ["Can you build Medical softwares?", "Can you develop Medical software?", "Can you build softwares for Medical industry?", "Can you build systems for Medical industry?", "Do you build Medical software?", "Do you develop Medical software?", "Do you build softwares for Medical field?", "Do you build systems for Medical field?", "Do you provide Medical software?", "Can you provide Medical software?", "Do you offer development of Medical software?", "Can you offer development of Medical software?"],
+         "responses": ["We provide custom medical software development services to assist healthcare providers in tracking equipment, healthcare supply chain management, asset management, and medical billing."],
+         "context": [""]
+        },
+    
+        {"tag": "health tracking apps",
+         "patterns": ["Can you build health tracking apps?", "Can you develop health tracking apps?", "Can you build softwares for health tracking?", "Can you build systems for health tracking?", "Do you build health tracking apps?", "Do you develop health tracking apps?", "Do you build softwares for health tracking?", "Do you build systems for health tracking?", "Do you provide health tracking apps?", "Can you provide health tracking apps?", "Do you offer development of health tracking apps?", "Can you offer development of health tracking apps?"],
+         "responses": ["Let your patients keep track of their health including heart rate and blood pressure measurement, access their medication information, adjust nutrition, and more."],
+         "context": [""]
+        },
+    
+        {"tag": "Travel Application",
+         "patterns": ["Can you build Travel Applications?", "Can you develop Travel Applications?", "Can you build softwares for Travel?", "Can you build systems for Travel?", "Do you build Travel Applications?", "Do you develop Travel Applications?", "Do you build softwares for Travel?", "Do you build systems for Travel?", "Do you provide Travel Applications?", "Can you provide Travel Applications?", "Do you offer development of Travel Applications?", "Can you offer development of Travel Applications?"],
+         "responses": ["We have expertise in building ride-sharing, taxi booking apps, travel information exchange systems, rental booking, and virtual touring apps."],
+         "context": [""]
+        },
+    
+        {"tag": "E-booking services",
+         "patterns": ["Can you build system for E-booking services?", "Can you develop system for E-booking services?", "Can you build softwares for E-booking services?", "Can you build systems for E-booking services?", "Do you build E-booking services apps?", "Do you develop E-booking services softwares?", "Do you build softwares for E-booking services?", "Do you build systems for E-booking services?", "Do you provide E-booking services Applications?", "Can you provide E-booking services Applications?", "Do you offer development of E-booking services Applications?", "Can you offer development of E-booking services Applications?"],
+         "responses": ["Provide interactive booking and ticketing experience for your customers by building apps with the latest technologies i.e. AI and cloud computing. InvoZone can help you build all types of e-booking and ticketing systems."],
+         "context": [""]
+        },
+        
+        {"tag": "AR or VR Travel apps",
+         "patterns": ["Can you build system for AR or VR Travel?", "Can you develop system for AR or VR Travel?", "Can you build softwares for AR or VR Travel?", "Can you build systems for AR or VR Travel?", "Do you build AR or VR Travel apps?", "Do you develop AR or VR Travel apps?", "Do you build softwares for AR or VR Travel?", "Do you build systems for AR or VR Travel?", "Do you provide AR or VR Travel apps?", "Can you provide AR or VR Travel apps?", "Do you offer development of AR or VR Travel apps?", "Can you offer development of AR or VR Travel apps?"],
+         "responses": ["Assist users in defining their travel destinations by unlocking the power of augmented and virtual reality-based apps. Build AR/VR apps like AR based travel planning and guide apps, Travel management solutions, virtual tours apps, and AR-based GPS apps."],
+         "context": [""]
+        },
+    
+        {"tag": "travel mobility solutions",
+         "patterns": ["Can you build system for travel mobility?", "Can you develop system for travel mobility?", "Can you build softwares for travel mobility?", "Can you build systems for travel mobility?", "Do you build travel mobility apps?", "Do you develop travel mobility Solutions?", "Do you build softwares for travel mobility?", "Do you build systems for travel mobility?", "Do you provide travel mobility apps?", "Can you provide travel mobility softwares?", "Do you offer development of travel mobility solutions?", "Can you offer development of travel mobility softwares?"],
+         "responses": ["Our developers are experts in building tourism apps including Customer service kiosks, payment gateways, seat booking, and food ordering apps."],
+         "context": [""]
+        },
+    
+        {"tag": "travel ERP solutions",
+         "patterns": ["Can you build system for travel ERP?", "Can you develop system for travel ERP?", "Can you build softwares for travel ERP?", "Can you build systems for travel ERP?", "Do you build travel ERP apps?", "Do you develop travel ERP Solutions?", "Do you build softwares for travel ERP?", "Do you build systems for travel ERP?", "Do you provide travel ERP apps?", "Can you provide travel ERP softwares?", "Do you offer development of travel ERP solutions?", "Can you offer development of travel ERP softwares?"],
+         "responses": ["Manage and integrate transport workflow with custom-built ERP solutions that initiate better fleet management, budgeting, invoicing, and much more."],
+         "context": [""]
+        },
+    
+        {"tag": "transportation app",
+         "patterns": ["Can you build system for transportation?", "Can you develop system for transportation?", "Can you build softwares for transportation?", "Can you build systems for transportation?", "Do you build transportation apps?", "Do you develop transportation Solutions?", "Do you build softwares for transportation?", "Do you build systems for transportation?", "Do you provide transportation apps?", "Can you provide transportation softwares?", "Do you offer development of transportation solutions?", "Can you offer development of transportation softwares?"],
+         "responses": ["Empower users with real-time transportation information apps. We help you develop cross-platform mobile software with user-friendly interfaces and custom-built features."],
+         "context": [""]
+        },
+    
+        {"tag": "Learning Management system",
+         "patterns": ["Can you build system for Learning Management?", "Can you develop system for Learning Management?", "Can you build softwares for Learning Management?", "Can you build systems for Learning Management?", "Do you build Learning Management apps?", "Do you develop Learning Management Solutions?", "Do you build softwares for Learning Management?", "Do you build systems for Learning Management?", "Do you provide Learning Management systems?", "Can you provide Learning Management softwares?", "Do you offer development of Learning Management solutions?", "Can you offer development of Learning Management systems?", "Do you have any solution regarding Learning Management system?"],
+         "responses": ["Seamlessly integrate educational and training modules with custom LMS app development. InvoZone’s educational software development services help you build feature-rich and interactive custom learning management systems (LMS)."],
+         "context": [""]
+        },
+    
+        {"tag": "eLearning system",
+         "patterns": ["Can you build system for eLearning?", "Can you develop system for eLearning?", "Can you build softwares for eLearning?", "Can you build systems for eLearning?", "Do you build eLearning apps?", "Do you develop eLearning Solutions?", "Do you build softwares for eLearning?", "Do you build systems for eLearning?", "Do you provide eLearning systems?", "Can you provide eLearning softwares?", "Do you offer development of eLearning solutions?", "Can you offer development of eLearning systems?", "Do you have any solution regarding eLearning system?", "Is there any software for eLearning?"],
+         "responses": ["We help you build scalable eLearning web and mobile platforms to customize the learning experience for students and employees. From Mobile eLearning app development to custom educational applications we help your company in eLearning web and app development."],
+         "context": [""]
+        },
+    
+        {"tag": "School Management system",
+         "patterns": ["Can you build system for School Management?", "Can you develop system for School Management?", "Can you build softwares for School Management?", "Can you build systems for School Management?", "Do you build School Management apps?", "Do you develop School Management Solutions?", "Do you build softwares for School Management?", "Do you build systems for School Management?", "Do you provide School Management systems?", "Can you provide School Management softwares?", "Do you offer development of School Management solutions?", "Can you offer development of School Management systems?", "Do you have any solution regarding School Management system?", "Is there any software for School Management?"],
+         "responses": ["Invozone helps ease the administrative burden by digitizing the admission process, enrollment and registration process, attendance, and other manual tasks."],
+         "context": [""]
+        },
+
+        {"tag": "educational software",
+         "patterns": ["Can you build system for educational purposes?", "Can you develop system for educational purposes?", "Can you build softwares for educational purposes?", "Can you build systems for educational purposes?", "Do you build educational apps?", "Do you develop educational Solutions?", "Do you build softwares for educational purposes?", "Do you build systems for educational purposes?", "Do you provide educational systems?", "Can you provide educational softwares?", "Do you offer development of educational solutions?", "Can you offer development of educational systems?", "Do you have any solution regarding education?", "Is there any software for educational purposes?", "Is there any online educational software available?"],
+         "responses": ["Become a trusted provider of up to date knowledge and new skills by empowering your business with educational platform & online courses like Coursera and Udemy. Hire expert software developers to build interactive and unique educational platform."],
+         "context": [""]
+        },
+    
+        {"tag": "Corporate Training software",
+         "patterns": ["Can you build system for Corporate Training?", "Can you develop system for Corporate Training?", "Can you build softwares for Corporate Training?", "Can you build systems for Corporate Training?", "Do you build Corporate Training apps?", "Do you develop Corporate Training Solutions?", "Do you build softwares for Corporate Training?", "Do you build systems for Corporate Training?", "Do you provide Corporate Training systems?", "Can you provide Corporate Training softwares?", "Do you offer development of Corporate Training solutions?", "Can you offer development of Corporate Training systems?", "Do you have any solution regarding Corporate Training?", "Is there any software for Corporate Training?", "Is there any online Corporate Training software available?"],
+         "responses": ["Yes, enhance employee productivity through custom employee training software applications. We provide you with a skilled , dedicated development team for building online training and skill enhancement educational software."],
+         "context": [""]
+        },
+    
+        {"tag": "Virtual reality education",
+         "patterns": ["Can you build system for Virtual reality education?", "Can you develop system for Virtual reality education?", "Can you build softwares for Virtual reality education?", "Can you build systems for Virtual reality education?", "Do you build Virtual reality education apps?", "Do you develop Virtual reality education Solutions?", "Do you build softwares for Virtual reality education?", "Do you build systems for Virtual reality education?", "Do you provide Virtual reality education systems?", "Can you provide Virtual reality education softwares?", "Do you offer development of Virtual reality education solutions?", "Can you offer development of Virtual reality education systems?", "Do you have any solution regarding Virtual reality education?", "Is there any software for Virtual reality education?", "Is there any online Virtual reality education software available?"],
+         "responses": ["We provide interactive learning experiences to the students with playful virtual reality solutions. Invozone’s expert software developers help your organization to develop customized eLearning app solutions."],
+         "context": [""]
+        },
+    
+    
+        {"tag": "Industries",
+         "patterns": ["In which areas do you work the most?", "What type of software do you develop?", "In what type of software do you have expertise?", "In what type of softwares can you help me?", "What type of systems do you develop?", "What type of apps do you develop?"],
+         "responses": ["We work in almost all the areas of Software Development. But most of the time we develop E-Commerce, Fintech, Food and Grocery, Travel and Tourism, Healthcare and Educational softwares."],
+         "context": [""]
+        },
+    
+        {"tag": "Range of ecommerce",
+         "patterns": ["What type of ecommerce website design and development services do you offer?", "What type of ecommerce website do you develop?", "Tell me about your ecommerce servics."],
+         "responses": ["We offer a variety of ecommerce website design and development services. We built Custom eCommerce platforms. You can also hire Woocommerce developers to boost online sales. We also offer Shopify development solutions focusing on ease of use to minimize development time and cost. We also provide Magento eCommerce solutions that grow your business and reduce costs. For more information feel free to visit our website. https://invozone.com/e-commerce/"],
+         "context": [""]
+        },
+    
+        {"tag": "On demand Services",
+         "patterns": ["What on demand services can you provide?", "What type of on demand services do you provide?", "What type of services do you offer on demand?"],
+         "responses": ["We provide App Development Solutions, Payment Solutions, Delivery App Development, Appointment App, Services Web App Development, Services Solutions and many more on demand of clients. For more information feel free to visit our website. https://invozone.com/on-demand-services/"],
+         "context": [""]
+        },
+    
+        {"tag": "Fintech Softwares",
+         "patterns": ["What solutions do you provide in the field of Fintech?", "What type of softwares do you develop in fintech?", "What are your expertise in fintech?", "What kind of solutions do you offer in fintech?"],
+         "responses": ["We develop Custom Fintech Software, Digital Payment Solutions, AI-enabled Fintech Apps, Regtech Solutions, Intelligent CRM Solution, Accounting Information Systems. For more information feel free to visit our website. https://invozone.com/fintech/"],
+         "context": [""]
+        },
+    
+        {"tag": "Food and Grocery App",
+         "patterns": ["What kind of Food and Grocery App do you develop?", "What type of grocery apps do you develop?", "What type of food apps do you develop?"],
+         "responses": ["We develop different types of Food and Grocery Apps like Grocery App, Food Delivery App, Online Food Ordering App, Restaurant Delivery App, Grocery Store Software, Restaurant Management Software. For more information feel free to visit our website. https://invozone.com/food-groceries/"],
+         "context": [""]
+        },
+    
+        {"tag": "Healthcare",
+         "patterns": ["What kind of Healthcare App do you develop?", "What type of Healthcare apps do you develop?", "What type of softwares do you develop for the Healthcare Industry?"],
+         "responses": ["We develop Telehealth Software, Patient Engagement Solution, Electronic Health Record Software (EHR), Health Insurance Software, Medical Software Solutions, Health Tracking Apps for Healthcare Industry. For more information feel free to visit our website. https://invozone.com/healthcare/"],
+         "context": [""]
+        },
+    
+        {"tag": "Travel and Tourism",
+         "patterns": ["What kind of Travel and Tourism App do you develop?", "What type of Travel and Tourism apps do you develop?", "What type of softwares do you develop for the Travel and Tourism Industry?"],
+         "responses": ["We develop On-Demand Travel Application, E-booking and Ticketing Systems, AR and VR based Travel Apps, Travel Mobility Solutions, Custom Travel ERP Solutions, Transportation Information App to enhance hospitality business. For more information feel free to visit our website. https://invozone.com/travel-tourism/"],
+         "context": [""]
+        },
+    
+        {"tag": "Educational Softwares",
+         "patterns": ["What kind of Educational App do you develop?", "What type of Educational apps do you develop?", "What type of softwares do you develop for the Education Industry?", "What kind of Educational softwares do you develop?", "What type of Educational softwares do you develop?"],
+         "responses": ["We develop Learning Management System, eLearning Applications, School Management System, Educational Platforms, Softwares for Corporate Training, Virtual Reality Educational Solutions. For more information feel free to visit our website. https://invozone.com/education/"],
+         "context": [""]
+        },
+    
+        {"tag": "Services",
+         "patterns": ["What services do you provide?", "What type of services do you offer?", "what type of services are you offering?", "What are you major services?"],
+         "responses": ["We provide Web Design and Development, Mobile App Development, Enterprise App Development, Software Quality Assurance, Dev Ops, Data Scraping, Big Data, IoT Development, Technical Support Services and UI/UX Design."],
+         "context": [""]
+        },
+    
+        {"tag": "Web Design and Development",
+         "patterns": ["What services do you provide in Web Design and Development?", "What do you offer in web development?", "what services will you give in web development?", "what services will you provide in web development?"],
+         "responses": ["We provide API development, Full Stack Development, Custom Website Development and many more services in Web Design and Development. For more information feel free to visit our website. https://invozone.com/website-design-development/"],
+         "context": [""]
+        },
+    
+        {"tag": "Mobile App Development",
+         "patterns": ["What services do you provide in Mobile App Development?", "What do you offer in Mobile App development?", "what services will you give in Mobile App development?", "what services will you provide in Mobile App development?"],
+         "responses": ["We offer ioS, Android, Hybrid and Windows Application Development. For more information feel free to visit our website. https://invozone.com/mobile-app-development/"],
+         "context": [""]
+        },
+    
+        {"tag": "Enterprise App Development",
+         "patterns": ["What services do you provide in Enterprise App Development?", "What do you offer in Enterprise App development?", "what services will you give in Enterprise App development?", "what services will you provide in Enterprise App development?"],
+         "responses": ["We offer Enterprise Application Integration, Enterprise Mobile and Web App Development, Enterprise Data Management and many more. For more information feel free to visit our website. https://invozone.com/enterprise-application-development/"],
+         "context": [""]
+        },
+    
+        {"tag": "Software Quality Assurance",
+         "patterns": ["What services do you provide in Software Quality Assurance?", "What do you offer in Software Quality Assurance?", "what services will you give in Software Quality Assurance?", "what services will you provide in Software Quality Assurance?", "How do you do Software Quality Assurance?", "tell me about your Software Quality Assurance services"],
+         "responses": ["We offer QA Automation, Performance Testing, Security Testing, Usability Testing and many more. For more information feel free to visit our website. https://invozone.com/software-quality-assurance/"],
+         "context": [""]
+        },
+    
+        {"tag": "DevOps",
+         "patterns": ["What services do you provide in DevOps?", "What do you offer in DevOps?", "what services will you give in DevOps?", "what services will you provide in DevOps?", "How do you do DevOps?", "tell me about your DevOps services"],
+         "responses": ["We offer Infrastructure Management, Configuration Management, Code Inspection and Integration, DevOps Automation Services and many more. For more information feel free to visit our website. https://invozone.com/devops/"],
+         "context": [""]
+        },
+    
+        {"tag": "Data Scraping",
+         "patterns": ["What services do you provide in Data Scraping?", "What do you offer in Data Scraping?", "what services will you give in Data Scraping?", "what services will you provide in Data Scraping?", "How do you do Data Scraping?", "tell me about your Data Scraping services"],
+         "responses": ["We provide Lead Generation and Marketing data, Social Media Data Scraping, Web Scraping Solutions, Web Scraping APIs and Custom AI Solutions. For more information feel free to visit our website. https://invozone.com/data-scraping/"],
+         "context": [""]
+        },
+    
+        {"tag": "Big Data",
+         "patterns": ["What services do you provide in Big Data?", "What do you offer in Big Data?", "what services will you give in Big Data?", "what services will you provide in Big Data?", "How do you do Big Data?", "tell me about your Big Data services"],
+         "responses": ["We provide Data Engineering, Data Visualization, BI & Data Analytics, Data Ops and many more services. For more information feel free to visit our website. https://invozone.com/big-data-services/"],
+         "context": [""]
+        },
+    
+        {"tag": "IoT Development",
+         "patterns": ["What services do you provide in IoT Development?", "What do you offer in IoT Development?", "what services will you give in IoT Development?", "what services will you provide in IoT Development?", "How do you do IoT Development?", "tell me about your IoT Development services"],
+         "responses": ["We provide Full Cycle IoT Development, IoT App Development, IoT Software Enhancements, Smart House Automation and many more. For more information feel free to visit our website. https://invozone.com/iot-development/"],
+         "context": [""]
+        },
+    
+        {"tag": "Technical Support Services",
+         "patterns": ["What services do you provide in Technical Support?", "What do you offer in Technical Support Services?", "what services will you give in Technical Support?", "what services will you provide in Technical Support?", "How do you give Technical Support Services?", "tell me about your Technical Support Services"],
+         "responses": ["We provide Live Chat Support, IT Maintenance, IT Support Services, Software Support Services and many more. For more information feel free to visit our website. https://invozone.com/technical-support-services/"],
+         "context": [""]
+        },
+    
+        {"tag": "UI/UX Design",
+         "patterns": ["What services do you provide in UI/UX Design?", "What do you offer in UI/UX Design?", "what services will you give in UI/UX Design?", "what services will you provide in UI/UX Design?", "How do you give UI/UX Design services?", "tell me about your UI/UX Design Services"],
+         "responses": ["We provide HCI designs, Mobile and Web App UI/UX Designs, UI/UX Brand Identity and many more. For more information feel free to visit our website. https://invozone.com/ui-ux-design/"],
+         "context": [""]
+        },
+    
+        {"tag": "Tech News",
+         "patterns": ["Any latest news related to Software Industry.", "tell me about the lates news of software industry.", "Can you inform me about any news of software industry?"],
+         "responses": ["For any kind of information on the Software Industry visit our Tech News Page. https://invozone.com/technews/"],
+         "context": [""]
+        },
+    
+        {"tag": "E-Books",
+         "patterns": ["Any material on Software Engineering.", "I want to know about software engineering.", "will you please recomment me some books on software industry?", "I want to read a book on software"],
+         "responses": ["For books related to any topic visit our website. https://invozone.com/e-books/"],
+         "context": [""]
+        },
+    
+        {"tag": "Contact",
+         "patterns": ["How to contact you?", "I want to connect with you."],
+         "responses": ["You can contact us using this page. https://invozone.com/contact-us/"],
+         "context": [""]
+        }
+   ]
+}
